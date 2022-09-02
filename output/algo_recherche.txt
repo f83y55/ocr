@@ -1,0 +1,11 @@
+FONCTION rechercher(a, x)
+    SI x = racine(a) ALORS
+        REPONDRE vrai
+    SINON SI x < racine(a) ALORS
+        SI a A un sag ALORS
+            recherche(sag(a), x)
+        SINON REPONDRE faux
+    SINON
+        SI a A un sad ALORS
+            recherche(sad(a), x)
+        SINON REPONDRE faux

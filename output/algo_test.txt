@@ -1,0 +1,7 @@
+a = Noeud("A”)
+b = Noeud("B")
+b.gauche = Noeud("D")
+b.droit = Noeud("E")
+c = Noeud("C")
+a.gauche = b
+a.droit = c
